@@ -1,0 +1,7 @@
+certifi==2019.3.9
+chardet==3.0.4
+fake-useragent==0.1.11
+idna==2.8
+proxy-requests==0.3.0
+requests==2.21.0
+urllib3==1.24.2
