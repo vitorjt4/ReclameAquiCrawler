@@ -1,4 +1,9 @@
 class RAAbstract(object):
+
+    """
+    Abstração das funções básicas para o Crawler
+    """
+
     __user_agent = None
     from proxy_requests import ProxyRequests
     import json
@@ -20,5 +25,3 @@ class RAAbstract(object):
             self.__user_agent = UserAgent().random
 
         return self.__user_agent
-
-# TEST COMMIT
